@@ -1,8 +1,9 @@
-/* create a class for each name in $list-names and assign background image based on the name */
+/* Creates a class for each name in the list $list-names and assigns the background image based on the name */
 
-@import '11-photos.scss';
+@import '11-photos';
 
 @each $name in $list-names {
-    .photo-#{$name} {
-        background: image-url("photos/#{$name}.jpg") no-repeat; 
-    }
+  .photo-#{$name} {
+      background: image-url('photos/#{$name}.jpg') no-repeat;
+  }
+}

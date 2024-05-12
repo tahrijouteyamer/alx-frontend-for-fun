@@ -1,7 +1,9 @@
-/* make declaration according to media size */
+/* Media query #0 */
+
 h1 {
-    font-size: 20px;
-    @media screen and (max-width: 320px) {
-        font-size: 14px;
-    }
+  font-size: 20px;
+
+  @media screen and (max-width: 320px) {
+      font-size: 14px; 
+  }
 }

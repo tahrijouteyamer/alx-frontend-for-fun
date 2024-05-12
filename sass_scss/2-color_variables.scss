@@ -1,16 +1,17 @@
-/* assigns the text color #6D6D6D to the html tags body and h2 */
-$txtcolor: #3D3D3D;
-$bgcolor: #6D6D6D;
+/* Assigns colors to body, p and background to body, h2 */
+
+$text-color: #3D3D3D;
+$bg-color: #6D6D6D;
 
 body {
-    color: $txtcolor;
-    background-color: $bgcolor;
+  color: $text-color;
+  background-color: $bg-color;
 }
 
 p {
-    color: $txtcolor;
+  color: $text-color;
 }
 
 h2 {
-    background-color: $bgcolor;
+  background-color: $bg-color;
 }

@@ -1,25 +1,21 @@
-/* Screens */
-
-$large: 960px;
-$medium: 640px;
-$small: 320px;
+/* Media query #1 */
 
 h1 {
-    font-size: 20px;
+  font-size: 20px;
 
-    @media screen and (max-width: $large) {        
-       font-size: 18px;
+  @media screen and (max-width: 960px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 640px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    &.small {
+      color: #1D1D1D;
     }
+  }
 
-    @media screen and (max-width: $medium) {
-        font-size: 16px;
-    }
-
-    @media screen and (max-width: $small) {
-        font-size: 14px;
-
-        &.small {
-            color: #1D1D1D;
-        }
-    }
 }

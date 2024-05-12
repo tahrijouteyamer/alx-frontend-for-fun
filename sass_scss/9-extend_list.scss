@@ -1,12 +1,15 @@
-/* extend class info in classes succes and warning */
+/* Extended */
+
 .info {
-    font-size: 12px;
+  font-size: 12px;
 }
+
 .success {
-    @extend .info;
-    color: #00FF00;
+  @extend .info;
+  color: #00FF00;
 }
+
 .warning {
-    @extend .info;
-    color: #FF0000;
+  @extend .info;
+  color: #FF0000;
 }
